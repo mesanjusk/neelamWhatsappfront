@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import axios from 'axios';
 
-const API_BASE = 'https://neelamwhatsappback.onrender.com/api/whatsapp';
+const API_BASE = 'neelamwhatsappback-production.up.railway.app/api/whatsapp';
 
 const WhatsAppSessionManager = () => {
   const [userId, setUserId] = useState('');
